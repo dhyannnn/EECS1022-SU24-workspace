@@ -1,3 +1,4 @@
+package model;
 
 public class Circle {
 	/*
@@ -5,7 +6,10 @@ public class Circle {
 	 */
 	public static double getArea(double radius) {
 		double area = 0.0;
+		// Correct implementation
 		area = 3.14 * radius * radius;
+//		// Wrong implementation
+//		area = 2 * 3.14 * radius;
 		return area;
 	}
 }
